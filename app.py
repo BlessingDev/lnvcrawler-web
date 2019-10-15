@@ -50,4 +50,4 @@ def month_book(year_month) :
     return html.format(ym=year_month.split('-')[0] + "년 " + year_month.split("-")[1] +"월")
 
 if __name__ == "__main__":
-    app.run(host=host, port=8080)
+    app.run(host=host, port=80)
